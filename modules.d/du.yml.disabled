@@ -1,0 +1,9 @@
+# Module: du
+# Docs: https://www.elastic.co/guide/en/beats/metricbeat//metricbeat-module-du.html
+
+- module: du
+  metricsets: ["log"]
+  enabled: false
+  period: 10s
+  hosts: ["localhost"]
+

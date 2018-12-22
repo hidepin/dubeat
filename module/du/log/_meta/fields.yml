@@ -1,0 +1,9 @@
+- name: log
+  type: group
+  description: >
+    log
+  fields:
+    - name: example
+      type: keyword
+      description: >
+        Example field

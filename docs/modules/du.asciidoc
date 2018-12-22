@@ -1,0 +1,39 @@
+////
+This file is generated! See scripts/docs_collector.py
+////
+
+[[metricbeat-module-du]]
+== du module
+
+experimental[]
+
+This is the du module.
+
+
+
+[float]
+=== Example configuration
+
+The du module supports the standard configuration options that are described
+in <<configuration-metricbeat>>. Here is an example configuration:
+
+[source,yaml]
+----
+dubeat.modules:
+- module: du
+  metricsets: ["log"]
+  enabled: false
+  period: 10s
+  hosts: ["localhost"]
+
+----
+
+[float]
+=== Metricsets
+
+The following metricsets are available:
+
+* <<metricbeat-metricset-du-log,log>>
+
+include::du/log.asciidoc[]
+

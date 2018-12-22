@@ -1,0 +1,11 @@
+- key: du
+  title: "du"
+  description: >
+    experimental[]
+
+    du module
+  fields:
+    - name: du
+      type: group
+      description: >
+      fields:
